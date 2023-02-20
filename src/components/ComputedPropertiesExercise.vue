@@ -26,7 +26,7 @@ export default {
       reversedMessage: computed(() => state.message.split('').reverse().join('')
         // all computed properties must return a value, what do you want this one to return?
         // return "";
-      ),
+    ),
     });
     return {
       state,
